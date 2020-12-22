@@ -9,7 +9,7 @@ jobs:
            git config --global user.name "RooGhz720"
            git config --global user.email "Rooghz720@gmail.com"
            git config --global color.ui false
-           git clone --depth=1 https://github.com/${CIRCLE_PROJECT_USERNAME}/Alive_Kernel_X01BD -b A11 .
+           git clone --depth=1 https://github.com/${CIRCLE_PROJECT_USERNAME}/Alive_Kernel_X01BD -b pie .
            bash .circleci/build.sh
 workflows:
   version: 2.1
