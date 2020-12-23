@@ -12,8 +12,8 @@ git clone --depth=1 https://android.googlesource.com/platform/prebuilts/gcc/linu
 # Main Environment
 export ARCH=arm64
 export SUBARCH=arm64
-export KBUILD_BUILD_USER="SonalSingh18"
-export KBUILD_BUILD_HOST="Etherious"
+export KBUILD_BUILD_USER="RooGhz720"
+export KBUILD_BUILD_HOST="Alive"
 export CROSS_COMPILE=/home/ubuntu/ether/gcc64/bin/aarch64-linux-android-
 export CROSS_COMPILE_ARM32=/home/ubuntu/ether/gcc32/bin/arm-linux-androideabi-
 export KBUILD_COMPILER_STRING=$(/home/ubuntu/ether/clang/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/  */ /g' -e 's/[[:space:]]*$//')
